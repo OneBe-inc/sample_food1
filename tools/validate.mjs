@@ -1,4 +1,4 @@
-﻿import {readFileSync, existsSync, statSync} from 'node:fs';
+import {readFileSync, existsSync, statSync} from 'node:fs';
 import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {execFileSync} from 'node:child_process';
@@ -9,12 +9,12 @@ if (new Set(ids).size !== ids.length) throw new Error('Duplicate HTML IDs');
 for (const [,path] of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
   if (path.startsWith('#')) { if (!ids.includes(path.slice(1))) throw new Error('Missing anchor ' + path); }
   else if (!/^(https?:|mailto:|tel:)/.test(path)) {
-    const file = resolve(root, 'dist', path);
+    const file = resolve(root, 'dist', path.split('?')[0]);
     if (!existsSync(file) || !statSync(file).size) throw new Error('Missing asset ' + path);
   }
 }
 for (const [,target] of html.matchAll(/data-dialog="([^"]+)"/g)) if (!ids.includes(target)) throw new Error('Missing dialog ' + target);
-for (const name of ['interior','styling','botanical','detail']) {
+for (const name of ['ai-hero-salon','ai-care-styling','ai-botanical','ai-lounge']) {
   const photo = readFileSync(resolve(root, `dist/assets/${name}.jpg`));
   if (photo[0] !== 255 || photo[1] !== 216 || photo.length < 10000) throw new Error('Invalid JPEG: ' + name);
 }

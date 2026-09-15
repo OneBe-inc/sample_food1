@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-16",
+  "method": "built-in image_gen tool",
+  "tool": "image_gen__imagegen",
+  "requestCount": 4,
+  "referenceImagesUsed": false,
+  "websiteUrlsUsed": false,
+  "variantsOrIterations": 0,
+  "outputPolicy": "Original generated PNG files copied without editing; source files retained.",
+  "assets": [
+    {
+      "asset": "hero-salon",
+      "prompt": "Use case: photorealistic-natural\nAsset type: hero photograph for a fictional Japanese hair salon website.\nPrimary request: Create one new original photorealistic editorial photograph of a quiet contemporary Japanese hair salon interior, with exactly two rectangular mirrors and two dark forest-green upholstered styling chairs, pale ash wood counters, and restrained silver/brushed steel fixtures. No people.\nComposition/framing: portrait 2:3 aspect ratio, a carefully composed interior photograph with realistic perspective and calm breathing space. Show the chairs, mirrors, and natural window light as the key subjects.\nLighting/mood: soft natural daylight, neutral white balance, quiet inviting atmosphere.\nMaterials/textures: believable fabric upholstery, pale ash wood grain, brushed steel, clean neutral-white walls.\nConstraints: Entirely invented original location, no reference imagery. No text, logos, brand names, artwork, watermark, recognizable existing salon, or trademark objects.",
+      "sourcePath": "C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-8ff120f0-c94f-4aa7-8bb9-3b4556432fe0.png",
+      "copiedPath": "C:/Users/issei/OneDrive/Desktop/AI一時保存/sample_food1-reference-20260916/ai-generated-20260916/hero-salon.png",
+      "toolResultKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "toolOutputHint": "Generated images are saved to C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d as C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-8ff120f0-c94f-4aa7-8bb9-3b4556432fe0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "expectedAspectRatio": "2:3",
+      "visualInspection": "Verified visually: portrait composition, two rectangular mirrors, two green upholstered styling chairs, pale wood and natural light, no people or visible text/logos."
+    },
+    {
+      "asset": "care-styling",
+      "prompt": "Use case: photorealistic-natural\nAsset type: hair-care editorial photograph for a fictional Japanese hair salon website.\nPrimary request: Create one new original photorealistic closeup of adult hairstylist hands gently combing an adult client's dark bob hair, photographed from behind. The hair and careful hand movement are the subject; no identifiable face.\nScene/backdrop: quiet modern Japanese salon, softly out of focus with dark forest-green upholstery, pale ash wood, and restrained silver/brushed steel details.\nComposition/framing: portrait 2:3 aspect ratio, close rear view, natural believable anatomy, anatomically correct hands and grip, realistic comb and strands of bobbed dark hair.\nLighting/mood: soft natural daylight, neutral white balance, intimate calm editorial photography.\nMaterials/textures: natural skin and individual hair textures, believable salon surfaces.\nConstraints: Entirely invented scene, no reference imagery. No text, logos, brand names, jewelry branding, artwork, watermark, identifiable faces, recognizable existing salon, or trademark objects.",
+      "sourcePath": "C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-fccc5f0f-1195-4220-98f0-aa6e4acd6318.png",
+      "copiedPath": "C:/Users/issei/OneDrive/Desktop/AI一時保存/sample_food1-reference-20260916/ai-generated-20260916/care-styling.png",
+      "toolResultKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "toolOutputHint": "Generated images are saved to C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d as C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-fccc5f0f-1195-4220-98f0-aa6e4acd6318.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "expectedAspectRatio": "2:3",
+      "visualInspection": "Verified visually: portrait composition, rear view of dark bob, two plausible adult hands and comb; no identifiable face or visible logos."
+    },
+    {
+      "asset": "botanical",
+      "prompt": "Use case: photorealistic-natural\nAsset type: botanical still-life editorial photograph for a fictional Japanese hair salon website.\nPrimary request: Create one new original photorealistic still life of a single leafy branch in a smoked glass vase on a pale ash wood shelf beside a folded white towel.\nScene/backdrop: quiet contemporary Japanese interior, neutral-white wall and a restrained dark forest-green tone in the background.\nComposition/framing: portrait 2:3 aspect ratio, generous calm negative space around the vase, shelf and towel; precise natural arrangement.\nLighting/mood: soft natural side light, neutral white balance, quiet editorial atmosphere.\nMaterials/textures: translucent smoked glass with realistic highlights, a fresh single leafy branch, fine pale ash wood grain, soft cotton towel texture.\nConstraints: Entirely invented original still life, no reference imagery. No people, text, logos, brand names, artwork, watermark, recognizable existing salon, or trademark objects.",
+      "sourcePath": "C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-16cccf28-1f01-41dd-9453-eb20647d896c.png",
+      "copiedPath": "C:/Users/issei/OneDrive/Desktop/AI一時保存/sample_food1-reference-20260916/ai-generated-20260916/botanical.png",
+      "toolResultKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "toolOutputHint": "Generated images are saved to C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d as C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-16cccf28-1f01-41dd-9453-eb20647d896c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "expectedAspectRatio": "2:3",
+      "visualInspection": "Verified visually: portrait composition, leafy branch in smoked glass vase, pale wood shelf and folded white towel. Generated image includes a partial unbranded ceramic bowl at the far right edge."
+    },
+    {
+      "asset": "lounge",
+      "prompt": "Use case: photorealistic-natural\nAsset type: lounge editorial photograph for a fictional Japanese hair salon website.\nPrimary request: Create one new original photorealistic photograph of a quiet original salon waiting corner with a dark forest-green fabric bench, pale ash wood shelf, and one unbranded ceramic cup.\nScene/backdrop: calm contemporary Japanese salon interior with neutral-white walls and restrained brushed-steel details.\nComposition/framing: landscape 3:2 aspect ratio, well-balanced interior photograph showing the bench and shelf, realistic perspective and spacious atmosphere. No people.\nLighting/mood: diffuse natural window light, neutral white balance, quiet and inviting editorial photography.\nMaterials/textures: believable green woven fabric, pale ash wood grain, matte ceramic, subtle brushed metal.\nConstraints: Entirely invented original location, no reference imagery. No text, logos, brand names, artwork, watermark, recognizable existing salon, or trademark objects.",
+      "sourcePath": "C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-c32a7396-7754-4c4c-812b-5bc508fa83f1.png",
+      "copiedPath": "C:/Users/issei/OneDrive/Desktop/AI一時保存/sample_food1-reference-20260916/ai-generated-20260916/lounge.png",
+      "toolResultKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "toolOutputHint": "Generated images are saved to C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d as C:\\Users\\issei\\.codex\\generated_images\\01a0a5b0-d88d-73c0-9371-62d84f0c3d8d\\exec-c32a7396-7754-4c4c-812b-5bc508fa83f1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "expectedAspectRatio": "3:2",
+      "visualInspection": "Verified visually: landscape composition, green fabric bench, pale wood shelf, ceramic cup and daylight. Generated image includes a second unbranded cup on the shelf and a distant styling chair."
+    }
+  ]
+}

@@ -1,16 +1,31 @@
-﻿# 写真・書体の出典
+﻿# 写真・書体・コードの出所（AI画像版）
 
-写真はPexelsからダウンロードし、サイト内ではローカル配信しています。利用条件: https://www.pexels.com/license/
+更新日: 2026-09-16
 
-| ファイル | 写真のソース |
-| --- | --- |
-| dist/assets/interior.jpg | https://www.pexels.com/photo/modern-hairdressing-salon-interior-with-comfy-chairs-and-big-mirrors-4969835/ |
-| dist/assets/styling.jpg | https://www.pexels.com/photo/woman-having-a-haircut-3993453/ |
-| dist/assets/botanical.jpg | https://www.pexels.com/photo/natural-leaves-in-vase-arrangement-4522918/ |
-| dist/assets/detail.jpg | https://www.pexels.com/photo/photo-of-a-hair-salon-7750115/ |
+## 現行の公開写真
 
-取得日: 2026-09-16。Pexelsの利用条件に基づくストック写真利用。人物・撮影店舗がこの架空サロンを推奨するという意味ではありません。写真そのものの再販売を目的とした成果物ではありません。
+全4点を、本案件用にbuilt-in `image_gen__imagegen` で新規生成。参照画像・WebサイトのURL・既存写真は画像生成に入力していません。モデルの学習内容は確認できません。
 
-書体: Google Fonts の DM Sans と Noto Serif JP。参照元サイトとは異なる組み合わせを使用。
+| 公開JPEG | 生成原本 | 用途 |
+| --- | --- | --- |
+| dist/assets/ai-hero-salon.jpg | assets-source/ai-20260916/hero-salon.png | 架空サロンの内装 |
+| dist/assets/ai-care-styling.jpg | assets-source/ai-20260916/care-styling.png | 架空のヘアケアの手元 |
+| dist/assets/ai-botanical.jpg | assets-source/ai-20260916/botanical.png | 植物の静物・記事画像 |
+| dist/assets/ai-lounge.jpg | assets-source/ai-20260916/lounge.png | 架空の待合空間 |
 
-ロゴとfaviconは文字を用いて本案件用に作成。装飾とレイアウトは独自実装。
+PNG原本は無加工で保管。公開JPEGは元寸法のまま品質88で形式変換し、内容の合成・修正はしていません。画面ではCSSでトリミング・明暗調整があります。
+
+生成プロンプト: provenance/prompts-and-metadata.json
+原本と公開用ファイルのSHA-256: provenance/asset-manifest.json
+
+## 旧素材
+
+初版4点はPexelsのストック写真で、参照元レストランの写真ではありませんでした。今回すべてdistから除外し、参照も更新しました。旧コミット履歴と非公開のローカル確認フォルダには旧写真が残ります。既存Git履歴の削除・書き換えはしていません。Pagesはdistのみ配信します。
+
+## 文字・UI・書体
+
+屋号「サンプル」とコピーライト「© SAMPLE — DEMONSTRATION WEBSITE」を維持。本文・ロゴの文字組み・favicon・HTML・CSS・JavaScriptは本案件で作成し、参照元の文章・ロゴ・装飾・コードは移植していません。
+
+外部書体はGoogle FontsのDM Sans、Noto Serif JP、Noto Sans JP。これらは第三者由来のライセンス素材として、AI画像・独自コードとは区別します。
+
+確認内容と限界: provenance/copyright-review.md

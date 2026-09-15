@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-16",
+  "tool": "image_gen__imagegen",
+  "referenceImages": false,
+  "assets": [
+    {
+      "name": "hero-salon",
+      "original": "assets-source/ai-20260916/hero-salon.png",
+      "published": "dist/assets/ai-hero-salon.jpg",
+      "sourceSha256": "12a358a80165624c86c3d71f84ab04e0a746caa231b022a3ae9ffeb86b547a49",
+      "publishedSha256": "590570b0989fcf02c34652b06bbc81f50b780f00d5a93f3b1741df16293d4252",
+      "derivative": "JPEG quality 88, dimensions unchanged; no content editing"
+    },
+    {
+      "name": "care-styling",
+      "original": "assets-source/ai-20260916/care-styling.png",
+      "published": "dist/assets/ai-care-styling.jpg",
+      "sourceSha256": "3bdeb5842b7bd0630e627dcbb83bfe87604131da4011e7f3b16506b466dca580",
+      "publishedSha256": "58e1ae37452c28686bfc439363e3496d93aa94a83cd08016435fbc04631e1f36",
+      "derivative": "JPEG quality 88, dimensions unchanged; no content editing"
+    },
+    {
+      "name": "botanical",
+      "original": "assets-source/ai-20260916/botanical.png",
+      "published": "dist/assets/ai-botanical.jpg",
+      "sourceSha256": "b2e06536c3da2e5d83a6f7dc450229676cec226fbc36751a857f7408258479d0",
+      "publishedSha256": "371e8e1514dbe58a7ffb2f90ab66f15097dd04de630aa98c80a5646ccfc8532d",
+      "derivative": "JPEG quality 88, dimensions unchanged; no content editing"
+    },
+    {
+      "name": "lounge",
+      "original": "assets-source/ai-20260916/lounge.png",
+      "published": "dist/assets/ai-lounge.jpg",
+      "sourceSha256": "235f79aaaff265f4470880638b8c98b14f1564000ef8ab5838f37afe5a600c97",
+      "publishedSha256": "a0619ce6a7eb390353a986abad64096e52ba58322d73098ee82eb356690b3fed",
+      "derivative": "JPEG quality 88, dimensions unchanged; no content editing"
+    }
+  ]
+}
