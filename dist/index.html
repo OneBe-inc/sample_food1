@@ -55,6 +55,7 @@
       content="https://onebe-inc.github.io/sample_food1/assets/ogp-wanbi.png"
     />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preload" as="image" href="assets/ogp-wanbi.png" />
     <link
       rel="preload"
       as="image"
@@ -67,8 +68,8 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&family=Zen+Maru+Gothic:wght@700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css?v=20260924" />
-    <script src="app.js?v=20260924" defer></script>
+    <link rel="stylesheet" href="style.css?v=20260924-motion" />
+    <script src="app.js?v=20260924-motion" defer></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -82,6 +83,24 @@
     </script>
   </head>
   <body id="top">
+    <div class="site-loader" aria-hidden="true">
+      <div class="loader-content">
+        <p class="loader-brand">ワンビー食堂</p>
+        <div class="loader-stage">
+          <span class="sprite omurice-doodle">
+            <img
+              src="assets/ogp-wanbi.png"
+              alt=""
+              width="1448"
+              height="1086"
+              fetchpriority="high"
+            />
+          </span>
+        </div>
+        <p class="loader-message">おいしい時間を、準備中。</p>
+        <span class="loader-dots"><i></i><i></i><i></i></span>
+      </div>
+    </div>
     <a class="skip-link" href="#main-content">本文へスキップ</a>
     <div class="announcement">
       <span class="egg-icon" aria-hidden="true"></span

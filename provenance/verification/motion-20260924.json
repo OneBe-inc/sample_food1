@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-24",
+  "environment": "Chrome / Windows / local preview",
+  "checks": [
+    {"name": "PC and 390px loading screen", "status": "PASS", "evidence": "Screenshots inspected: supplied omurice character visible in yellow circle, centered copy; computed duration 1.1s."},
+    {"name": "Loader automatically ends", "status": "PASS", "evidence": "Loader element absent after animation ends. Content and reservation dialog usable."},
+    {"name": "Gentle character sway", "status": "PASS", "evidence": "Computed character-sway animations, duration 2.4s for egg chefs and 2.8s for the omurice illustration; transforms observed."},
+    {"name": "Reduced motion", "status": "PASS", "evidence": "Emulated prefers-reduced-motion: reduce. Loader display none and all character animation names none. Emulation restored."},
+    {"name": "JavaScript disabled fallback", "status": "PASS", "evidence": "With script execution disabled, CSS ended at visibility hidden / opacity 0. Script execution restored."},
+    {"name": "Static checks", "status": "PASS", "evidence": "84 PASS / 0 FAIL, including noindex, unchanged OGP and GA4 absence."}
+  ],
+  "limits": ["Network speed may affect when the PNG first appears; the intro itself does not wait for slow resources.", "Physical Safari/Firefox devices not retested for this change."]
+}
