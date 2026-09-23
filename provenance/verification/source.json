@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-23T20:12:41.326Z",
+  "status": "PASS",
+  "scope": [
+    "dist/index.html",
+    "dist/404.html",
+    "dist/style.css",
+    "dist/app.js",
+    "dist/assets/favicon.svg"
+  ],
+  "findings": [],
+  "limitations": [
+    "Marker checks only; not comprehensive security or copyright clearance.",
+    "Image provenance is recorded separately in ASSETS.md."
+  ]
+}

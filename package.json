@@ -1,0 +1,20 @@
+{
+  "name": "wanbi-food-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "preview": "node tools/preview.mjs",
+    "check": "node tools/validate.mjs",
+    "check:aio:static": "node tools/validate.mjs",
+    "check:aio:http": "node tools/check-http.mjs",
+    "audit:assets": "node tools/asset-manifest.mjs"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.11.1",
+    "linkedom": "^0.18.13"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-09-23T20:12:40.823Z",
+  "results": [
+    {
+      "rule_id": "V01/V06",
+      "url": "http://127.0.0.1:4317/sample_food1/",
+      "status": "PASS",
+      "expected": 200,
+      "actual": 200,
+      "evidence": "http://127.0.0.1:4317/sample_food1/",
+      "checked_at": "2026-09-23T20:12:40.784Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V03",
+      "url": "http://127.0.0.1:4317/sample_food1/",
+      "status": "PASS",
+      "expected": "noindex,nofollow",
+      "actual": "noindex,nofollow",
+      "evidence": {
+        "http": "noindex, nofollow",
+        "html": "noindex,nofollow"
+      },
+      "checked_at": "2026-09-23T20:12:40.794Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V02",
+      "url": "http://127.0.0.1:4317/sample_food1/",
+      "status": "PASS",
+      "expected": "Primary copy and prices in raw HTML",
+      "actual": "ワンビー食堂｜ふわとろオムライス専門店・サンプルサイト",
+      "evidence": "GET response, no browser execution",
+      "checked_at": "2026-09-23T20:12:40.795Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V11",
+      "url": "http://127.0.0.1:4317/sample_food1/assets/favicon.svg",
+      "status": "PASS",
+      "expected": 200,
+      "actual": 200,
+      "evidence": "image/svg+xml",
+      "checked_at": "2026-09-23T20:12:40.800Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V11",
+      "url": "http://127.0.0.1:4317/sample_food1/style.css?v=20260924",
+      "status": "PASS",
+      "expected": 200,
+      "actual": 200,
+      "evidence": "text/css; charset=utf-8",
+      "checked_at": "2026-09-23T20:12:40.802Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V11",
+      "url": "http://127.0.0.1:4317/sample_food1/app.js?v=20260924",
+      "status": "PASS",
+      "expected": 200,
+      "actual": 200,
+      "evidence": "text/javascript; charset=utf-8",
+      "checked_at": "2026-09-23T20:12:40.804Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V11",
+      "url": "http://127.0.0.1:4317/sample_food1/assets/ogp-wanbi.png",
+      "status": "PASS",
+      "expected": 200,
+      "actual": 200,
+      "evidence": "image/png",
+      "checked_at": "2026-09-23T20:12:40.812Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V11",
+      "url": "http://127.0.0.1:4317/sample_food1/assets/restaurant-interior.png",
+      "status": "PASS",
+      "expected": 200,
+      "actual": 200,
+      "evidence": "image/png",
+      "checked_at": "2026-09-23T20:12:40.820Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V01/V06",
+      "url": "http://127.0.0.1:4317/sample_food1/not-a-real-page/",
+      "status": "PASS",
+      "expected": 404,
+      "actual": 404,
+      "evidence": "http://127.0.0.1:4317/sample_food1/not-a-real-page/",
+      "checked_at": "2026-09-23T20:12:40.822Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V03",
+      "url": "http://127.0.0.1:4317/sample_food1/not-a-real-page/",
+      "status": "PASS",
+      "expected": "noindex,nofollow",
+      "actual": "noindex,nofollow",
+      "evidence": {
+        "http": "noindex, nofollow",
+        "html": "noindex,nofollow"
+      },
+      "checked_at": "2026-09-23T20:12:40.823Z",
+      "environment": "http://127.0.0.1:4317"
+    }
+  ]
+}

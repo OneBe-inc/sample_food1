@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-24",
+  "tool": "image_gen__imagegen",
+  "reference": "User-provided Codex 画像 2026年9月24日 04_42_31.png",
+  "output": "dist/assets/restaurant-interior.png",
+  "prompt": "Create a clean standalone website HERO PHOTOGRAPH extracted and reconstructed from the CENTER restaurant-interior image in the supplied website design reference. Preserve the same fictional restaurant almost exactly: light natural oak tables and counter, mustard-yellow upholstered chairs, golden yellow pendant lamps, sunny tall left windows with leafy potted plants, cream tiles, open kitchen at right, white-toque chef in white shirt and dark apron frying a yellow omelette, plates and pans. Vertical portrait 4:5 composition, warm natural daylight, same perspective from dining room toward open kitchen. Reconstruct naturally the areas occluded by the website title, pill, copy and button. Output ONLY the clean photorealistic interior photograph, edge to edge. Remove ALL website lettering, logos, headings, buttons, menu cards, sidebars, mascot overlays, rounded frame and interface. Wall art can depict a small simple omurice illustration but no readable text. Preserve sunny warm colors and believable attractive architecture. This will be used under live HTML text, not as a website screenshot.",
+  "note": "Fictional interior. Clean photograph reconstructed from approved mockup; live website text is HTML."
+}
