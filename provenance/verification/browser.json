@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-24",
+  "environment": "Windows / Chrome / local HTTP",
+  "url": "http://127.0.0.1:4317/sample_food1/",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 740,
+      "clientWidth": 305,
+      "scrollWidth": 305,
+      "heroWidth": 305
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "heroWidth": 375
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "heroWidth": 600
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "clientWidth": 1433,
+      "scrollWidth": 1433,
+      "heroWidth": 568,
+      "heroHeight": 674
+    }
+  ],
+  "checks": [
+    {
+      "test": "PC center photo and side panels match approved composition",
+      "status": "PASS",
+      "evidence": "Screenshot inspected; center 568x674, margins and sides aligned. Interior reconstructed, not pixel-identical."
+    },
+    {
+      "test": "Small mobile typography / tablet horizontal overflow",
+      "status": "PASS",
+      "evidence": "Document scrollWidth equals clientWidth at each tested width; screenshot inspected at 320 and 390."
+    },
+    {
+      "test": "Mobile navigation opens and anchors close it",
+      "status": "PASS",
+      "evidence": "Menu link navigated to #menu; dialog closed; aria-expanded returned to false."
+    },
+    {
+      "test": "Food details and nested booking",
+      "status": "PASS",
+      "evidence": "Ketchup 1100 / demi 1300. Full menu to demi; dish to booking."
+    },
+    {
+      "test": "Booking preview valid submission",
+      "status": "PASS",
+      "evidence": "Selected 2026-09-24 13:00 / 3 people. Preview explicitly says no reservation transmitted."
+    },
+    {
+      "test": "Booking past date rejected",
+      "status": "PASS",
+      "evidence": "2020-01-01 causes validity.rangeUnderflow=true; result stays hidden."
+    },
+    {
+      "test": "Escape close and focus return",
+      "status": "PASS",
+      "evidence": "Escape closes modal, unlocks body; focus returns to opening food card / full-menu button."
+    },
+    {
+      "test": "Privacy dialog shows no analytics",
+      "status": "PASS",
+      "evidence": "Read displayed text, Google Fonts notice present."
+    },
+    {
+      "test": "Console errors/warnings",
+      "status": "PASS",
+      "evidence": "Captured Chrome error/warn log list empty."
+    }
+  ],
+  "notTested": [
+    "Physical devices / Safari / Firefox",
+    "Lighthouse and real-user Core Web Vitals",
+    "New production deployment / actual bot retrieval / social OGP cache"
+  ]
+}

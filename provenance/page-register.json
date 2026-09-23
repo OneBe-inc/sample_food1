@@ -1,0 +1,32 @@
+{
+  "siteUrl": "https://onebe-inc.github.io/sample_food1/",
+  "siteType": "fictional restaurant demonstration",
+  "date": "2026-09-24",
+  "pages": [
+    {
+      "path": "/",
+      "file": "dist/index.html",
+      "status": 200,
+      "indexPolicy": "noindex,nofollow",
+      "canonical": "https://onebe-inc.github.io/sample_food1/",
+      "purpose": "承認済みのワンビー食堂デザインとメニュー・予約操作の体験",
+      "source": "ユーザー指定デザイン画像・本タスクの指示"
+    },
+    {
+      "path": "/not-a-real-page/",
+      "file": "dist/404.html",
+      "status": 404,
+      "indexPolicy": "noindex,nofollow",
+      "canonical": null,
+      "purpose": "存在しないURLの案内",
+      "source": "本実装"
+    }
+  ],
+  "sitemapPolicy": "noindexページを含めず空にする",
+  "searchProfiles": {
+    "Google": "NOT_TESTED: noindexのデモ。Search Console権限確認は依頼外。",
+    "ChatGPT": "N/A: 検索露出を狙わないデモ。検索向け許可設定を追加しない。",
+    "Bing": "N/A: noindexのデモ。"
+  },
+  "trainingCrawlerPolicy": "既存方針を変更しない。サブパスのrobots.txtではドメインルートのポリシーを上書きできない。"
+}

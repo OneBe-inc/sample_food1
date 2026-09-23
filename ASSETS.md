@@ -1,31 +1,19 @@
-﻿# 写真・書体・コードの出所（AI画像版）
+# ワンビー食堂：素材の出所
 
-更新日: 2026-09-16
+更新日: 2026-09-24
 
-## 現行の公開写真
-
-全4点を、本案件用にbuilt-in `image_gen__imagegen` で新規生成。参照画像・WebサイトのURL・既存写真は画像生成に入力していません。モデルの学習内容は確認できません。
-
-| 公開JPEG | 生成原本 | 用途 |
+| ファイル | 出所・用途 | 加工 |
 | --- | --- | --- |
-| dist/assets/ai-hero-salon.jpg | assets-source/ai-20260916/hero-salon.png | 架空サロンの内装 |
-| dist/assets/ai-care-styling.jpg | assets-source/ai-20260916/care-styling.png | 架空のヘアケアの手元 |
-| dist/assets/ai-botanical.jpg | assets-source/ai-20260916/botanical.png | 植物の静物・記事画像 |
-| dist/assets/ai-lounge.jpg | assets-source/ai-20260916/lounge.png | 架空の待合空間 |
+| dist/assets/ogp-wanbi.png | ユーザー添付「Codex 画像 2026年9月24日 04_42_31.png」。承認済みデザインとOGP | ファイルは無加工。1448×1086 PNG |
+| dist/assets/restaurant-interior.png | 上記デザインを参照して image_gen__imagegen で生成した架空の店内写真 | 写真上のUIを除いて再構成。1122×1402 PNG |
+| dist/assets/favicon.svg | 本実装で作成した卵モチーフ | SVG |
 
-PNG原本は無加工で保管。公開JPEGは元寸法のまま品質88で形式変換し、内容の合成・修正はしていません。画面ではCSSでトリミング・明暗調整があります。
+ロゴのカトラリー、卵・料理写真、イラストは、添付画像の該当箇所をCSSの切り抜き表示で使用しています。画面全体を1枚の画像として表示しているわけではありません。文字・ボタン・価格・レイアウトはHTML/CSSで独立しており、スマートフォンにも対応します。OGP画像のハッシュは添付原本と完全一致しています。
 
-生成プロンプト: provenance/prompts-and-metadata.json
-原本と公開用ファイルのSHA-256: provenance/asset-manifest.json
+写真やイラストは実在の店舗・料理を示すものではありません。生成写真は参照と同じ雰囲気を再構成したもので、元の店内画像とピクセル単位の一致ではありません。
 
-## 旧素材
+書体はGoogle FontsのNoto Sans JPとZen Maru Gothicを使用しています。外部書体サービスへの通信があります。アクセス解析はありません。
 
-初版4点はPexelsのストック写真で、参照元レストランの写真ではありませんでした。今回すべてdistから除外し、参照も更新しました。旧コミット履歴と非公開のローカル確認フォルダには旧写真が残ります。既存Git履歴の削除・書き換えはしていません。Pagesはdistのみ配信します。
+参考サイト「みんなの銀行」はPCの中央カラムと左右固定エリアの構成参考です。同行のロゴ、写真、文章、スクリプトは公開物に取り込んでいません。ユーザー提供画像と生成素材の出所記録であり、第三者の権利に関する網羅的な調査・保証ではありません。
 
-## 文字・UI・書体
-
-屋号「サンプル」とコピーライト「© SAMPLE — DEMONSTRATION WEBSITE」を維持。本文・ロゴの文字組み・favicon・HTML・CSS・JavaScriptは本案件で作成し、参照元の文章・ロゴ・装飾・コードは移植していません。
-
-外部書体はGoogle FontsのDM Sans、Noto Serif JP、Noto Sans JP。これらは第三者由来のライセンス素材として、AI画像・独自コードとは区別します。
-
-確認内容と限界: provenance/copyright-review.md
+画像の寸法・バイト数・SHA-256は `provenance/asset-manifest.json`、生成指示は `provenance/restaurant-image-generation.json` に記録しています。旧サロンの画像4点は公開ディレクトリから除き、旧原本と記録は履歴資料として残しています。

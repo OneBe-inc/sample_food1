@@ -1,26 +1,53 @@
-﻿# サンプル — HAIR & TIME
+# ワンビー食堂 — オムライス専門店のサンプル
 
-架空のヘアサロン「サンプル」のレスポンシブサイト。
-公開URL: https://onebe-inc.github.io/sample_food1/
+承認済みのデザイン画像をもとにした、黄色とクリーム色の飲食店デモサイトです。PCでは細い中央カラムと左右の固定案内、スマートフォンでは1カラムと画面下の固定ボタンで表示します。
 
-## 今回の更新
+## 今回の仕様
 
-全4点の写真を、参照画像を使わず新規にAI生成。PNG原本は assets-source/ai-20260916、正確なプロンプトと確認記録は provenance/ に保存しています。旧ストック写真は現行の公開対象から除外しました。
+- 店内写真を全面に広げたファーストビュー。コピー・ナビ・価格はHTMLで実装。
+- メニュー詳細、スマートフォンメニュー、お知らせ、予約内容のプレビューに対応。
+- OGPはユーザー指定のPNGを無加工で使用。SHA-256による同一性検証を実装。
+- トップと404に `noindex,nofollow`。検索公開を目的としないデモです。
+- GA4はユーザーの取り消し指示により未導入。解析タグ・計測ID・解析用コードはありません。
+- 予約は画面内の操作サンプルで、送信・保存しません。実在の店舗、住所、電話番号、SNSを仮造しません。
 
-大まかな情報の流れは紹介→こだわり→メニュー→予約→お知らせ→問い合わせ→店舗案内。左右分割のトップ、深緑の配色、独自の文字組み・余白・写真の扱いに変更しています。参照元のロゴ・文章・コードは転載していません。
+## 実行
 
-[素材の出所](ASSETS.md) / [確認記録と限界](provenance/copyright-review.md)
+公開対象は `dist/` の静的HTML・CSS・JavaScriptです。サイト自体のビルドは不要です。検証はNode.js 22以上を使用します。
 
-## 操作と実行
+```sh
+npm ci
+npm run check
+npm run preview
+```
 
-スマートフォン用ナビ、メニュー詳細、当月から3か月の予約カレンダー、予約プレビュー、お問い合わせの入力確認、記事ダイアログに対応。
+プレビュー: http://127.0.0.1:4317/sample_food1/
 
-予約と問い合わせはデモで、入力内容は送信・保存しません。料金・店舗情報はサンプルです。サイト上でAI画像である旨を表示しています。
+別ターミナルで、プレビュー起動後に実行:
 
-dist/ が公開ファイル。インストール・ビルド不要。
-node tools/validate.mjs で構文と参照、画像、アンカー等を確認できます。
-mainへのpushでGitHub ActionsがdistをPagesに公開します。
+```sh
+npm run check:aio:http
+npm run audit:assets
+node tools/audit-source.mjs
+```
 
-Google Fonts以外の外部通信は実装していません。アクセス解析なし。デモのためnoindex設定。
+HTTP検証の対象を明示する場合: `node tools/check-http.mjs https://onebe-inc.github.io/sample_food1/`。公開前のURLには旧版が残るため、新版の検証は公開後に実施してください。
 
-ローカル保存先: C:\Users\issei\OneDrive\Desktop\AI一時保存\sample_food1-20260916
+## GitHub Pages
+
+既存の公開先設定は https://onebe-inc.github.io/sample_food1/ です。PRでは静的検証のみ実行し、mainへの反映後に既存のPagesワークフローが `dist/` を公開します。
+
+この変更をPRで提出する段階では、新デザインの本番配信、公開URLの応答、SNSのOGPキャッシュ更新は未確認です。公開時はHTTP検証と実機表示を再確認してください。
+
+GitHub Pagesのプロジェクトサイトでは、このリポジトリからドメインルートのrobots.txtや任意のHTTPヘッダーを管理できません。検索除外は各HTMLのrobotsメタで指定しています。robotsによるクロール拒否は追加せず、noindexを読める構成です。サイトマップにはnoindexページを入れていません。
+
+## 記録
+
+- [素材の出所と再利用方法](ASSETS.md)
+- [ルール適用・検証マトリクス・例外](provenance/implementation-review-20260924.md)
+- [ページ台帳](provenance/page-register.json)
+- [画像台帳](provenance/asset-manifest.json)
+- [生成プロンプト](provenance/restaurant-image-generation.json)
+- [静的検証](provenance/verification/static.json) / [HTTP検証](provenance/verification/http.json)
+
+`assets-source/ai-20260916/` と2026-09-16付の記録は旧サロン版の履歴資料です。Pagesの公開対象には含まれません。今回の素材・検証とは区別してください。
