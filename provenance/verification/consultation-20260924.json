@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-24",
+  "environment": "Chrome / Windows / local preview",
+  "destination": "https://lin.ee/pGcDjdz",
+  "checks": [
+    {"name": "Specified LINE destination", "status": "PASS", "evidence": "Clicked the new link. New tab reached line.me/R/ti/p/@773rgcid and displayed the LINE QR-code friend-add page."},
+    {"name": "Desktop fixed side tab", "status": "PASS", "evidence": "1448x1086: fixed right edge, width 56px. 1024x900: right-side content narrowed to keep room for the consultation tab."},
+    {"name": "Mobile placement", "status": "PASS", "evidence": "390x844 and 320x740: horizontal 48px-high control above the restaurant reservation bar, with a 17px gap and no horizontal overflow."},
+    {"name": "Scroll and dialogs", "status": "PASS", "evidence": "After scrolling over 3000px to the footer, consultation control remains at the same viewport height. Existing privacy dialog opens and closes normally."},
+    {"name": "Static validation", "status": "PASS", "evidence": "84 checks passed, including noindex, OGP original hash and GA4 absence."}
+  ],
+  "limits": ["LINE app login, friend addition and message sending are not part of this website change.", "No new analytics or inquiry form were added."]
+}
