@@ -1,4 +1,14 @@
 "use strict";
+const siteLoader = document.querySelector(".site-loader");
+if (siteLoader) {
+  const removeLoader = () => siteLoader.remove();
+  siteLoader.addEventListener("animationend", (event) => {
+    if (event.target === siteLoader) removeLoader();
+  });
+  // CSS also dismisses the intro if JavaScript is unavailable.
+  window.setTimeout(removeLoader, 1600);
+}
+
 const dialogs = [...document.querySelectorAll("dialog")];
 let lastTrigger = null;
 function openDialog(id, trigger) {

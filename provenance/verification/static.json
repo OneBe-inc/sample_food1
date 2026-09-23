@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-23T20:12:40.933Z",
+  "checkedAt": "2026-09-23T20:22:58.891Z",
   "summary": {
-    "pass": 81,
+    "pass": 84,
     "fail": 0
   },
   "results": [
@@ -12,7 +12,7 @@
       "expected": "noindex,nofollow",
       "actual": "noindex,nofollow",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.844Z",
+      "checked_at": "2026-09-23T20:22:58.799Z",
       "environment": "local/static"
     },
     {
@@ -22,7 +22,7 @@
       "expected": "One nonempty h1",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.845Z",
+      "checked_at": "2026-09-23T20:22:58.802Z",
       "environment": "local/static"
     },
     {
@@ -32,7 +32,7 @@
       "expected": "Unique nonempty title and Japanese language",
       "actual": "ワンビー食堂｜ふわとろオムライス専門店・サンプルサイト",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.846Z",
+      "checked_at": "2026-09-23T20:22:58.802Z",
       "environment": "local/static"
     },
     {
@@ -42,7 +42,7 @@
       "expected": "Unique IDs",
       "actual": 34,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.846Z",
+      "checked_at": "2026-09-23T20:22:58.802Z",
       "environment": "local/static"
     },
     {
@@ -54,7 +54,7 @@
         "https://onebe-inc.github.io/sample_food1/"
       ],
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.846Z",
+      "checked_at": "2026-09-23T20:22:58.802Z",
       "environment": "local/static"
     },
     {
@@ -64,7 +64,17 @@
       "expected": "Existing local file",
       "actual": "assets/favicon.svg",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.803Z",
+      "environment": "local/static"
+    },
+    {
+      "rule_id": "V11",
+      "url": "https://onebe-inc.github.io/sample_food1/",
+      "status": "PASS",
+      "expected": "Existing local file",
+      "actual": "assets/ogp-wanbi.png",
+      "evidence": "dist/index.html",
+      "checked_at": "2026-09-23T20:22:58.803Z",
       "environment": "local/static"
     },
     {
@@ -74,7 +84,7 @@
       "expected": "Existing local file",
       "actual": "assets/restaurant-interior.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.803Z",
       "environment": "local/static"
     },
     {
@@ -82,9 +92,9 @@
       "url": "https://onebe-inc.github.io/sample_food1/",
       "status": "PASS",
       "expected": "Existing local file",
-      "actual": "style.css?v=20260924",
+      "actual": "style.css?v=20260924-motion",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -92,9 +102,19 @@
       "url": "https://onebe-inc.github.io/sample_food1/",
       "status": "PASS",
       "expected": "Existing local file",
-      "actual": "app.js?v=20260924",
+      "actual": "app.js?v=20260924-motion",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
+      "environment": "local/static"
+    },
+    {
+      "rule_id": "V11",
+      "url": "https://onebe-inc.github.io/sample_food1/",
+      "status": "PASS",
+      "expected": "Existing local file",
+      "actual": "assets/ogp-wanbi.png",
+      "evidence": "dist/index.html",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -104,7 +124,7 @@
       "expected": "Existing fragment",
       "actual": "#main-content",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -114,7 +134,7 @@
       "expected": "Existing fragment",
       "actual": "#top",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -124,7 +144,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -134,7 +154,7 @@
       "expected": "Existing fragment",
       "actual": "#about",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -144,7 +164,7 @@
       "expected": "Existing fragment",
       "actual": "#menu",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -154,7 +174,7 @@
       "expected": "Existing fragment",
       "actual": "#news",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -164,7 +184,7 @@
       "expected": "Existing fragment",
       "actual": "#access",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -174,7 +194,7 @@
       "expected": "Existing fragment",
       "actual": "#about",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -184,7 +204,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -194,7 +214,7 @@
       "expected": "Existing fragment",
       "actual": "#menu",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -204,7 +224,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -214,7 +234,7 @@
       "expected": "Existing local file",
       "actual": "assets/restaurant-interior.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -224,7 +244,7 @@
       "expected": "Existing fragment",
       "actual": "#menu",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.847Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -234,7 +254,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -244,7 +264,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -254,7 +274,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -264,7 +284,7 @@
       "expected": "Existing fragment",
       "actual": "#menu",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -274,7 +294,7 @@
       "expected": "Existing local file",
       "actual": "assets/restaurant-interior.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.804Z",
       "environment": "local/static"
     },
     {
@@ -284,7 +304,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -294,7 +314,7 @@
       "expected": "Existing fragment",
       "actual": "#top",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -304,7 +324,7 @@
       "expected": "Existing fragment",
       "actual": "#top",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -314,7 +334,7 @@
       "expected": "Existing local file",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -324,7 +344,7 @@
       "expected": "Existing fragment",
       "actual": "#menu",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -334,7 +354,7 @@
       "expected": "Existing fragment",
       "actual": "#about",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -344,7 +364,7 @@
       "expected": "Existing fragment",
       "actual": "#menu",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -354,7 +374,7 @@
       "expected": "Existing fragment",
       "actual": "#news",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -364,7 +384,7 @@
       "expected": "Existing fragment",
       "actual": "#access",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.805Z",
       "environment": "local/static"
     },
     {
@@ -374,7 +394,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h1: ふわとろオムライス専門店",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -384,7 +404,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h2: 今日は、どのオムライス？",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -394,7 +414,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h2: たまごへの、こだわり。",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -404,7 +424,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h2: いつもの街に、おいしい居場所。",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -414,7 +434,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h2: 食堂からのお知らせ",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -424,7 +444,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h2: おいしい時間を、ごいっしょに。",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -434,7 +454,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h2: ワンビー食堂のご案内",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -444,7 +464,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -454,7 +474,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -464,7 +484,17 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
+      "environment": "local/static"
+    },
+    {
+      "rule_id": "V13",
+      "url": "https://onebe-inc.github.io/sample_food1/",
+      "status": "PASS",
+      "expected": "Image alt and reserved intrinsic size",
+      "actual": "assets/ogp-wanbi.png",
+      "evidence": "dist/index.html",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -474,7 +504,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/restaurant-interior.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -484,7 +514,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -494,7 +524,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -504,7 +534,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -514,7 +544,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/restaurant-interior.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -524,7 +554,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -534,7 +564,7 @@
       "expected": "Image alt and reserved intrinsic size",
       "actual": "assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -544,7 +574,7 @@
       "expected": "WebSite only; no fictional Restaurant claims",
       "actual": "WebSite",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.848Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -554,7 +584,7 @@
       "expected": "Accessible field label",
       "actual": "booking-date",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.849Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -564,7 +594,7 @@
       "expected": "Accessible field label",
       "actual": "booking-time",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.849Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -574,7 +604,7 @@
       "expected": "Accessible field label",
       "actual": "booking-guests",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.849Z",
+      "checked_at": "2026-09-23T20:22:58.806Z",
       "environment": "local/static"
     },
     {
@@ -584,7 +614,7 @@
       "expected": "noindex,nofollow",
       "actual": "noindex,nofollow",
       "evidence": "dist/404.html",
-      "checked_at": "2026-09-23T20:12:40.850Z",
+      "checked_at": "2026-09-23T20:22:58.807Z",
       "environment": "local/static"
     },
     {
@@ -594,7 +624,7 @@
       "expected": "One nonempty h1",
       "actual": 1,
       "evidence": "dist/404.html",
-      "checked_at": "2026-09-23T20:12:40.850Z",
+      "checked_at": "2026-09-23T20:22:58.807Z",
       "environment": "local/static"
     },
     {
@@ -604,7 +634,7 @@
       "expected": "Unique nonempty title and Japanese language",
       "actual": "ページが見つかりません｜ワンビー食堂",
       "evidence": "dist/404.html",
-      "checked_at": "2026-09-23T20:12:40.850Z",
+      "checked_at": "2026-09-23T20:22:58.807Z",
       "environment": "local/static"
     },
     {
@@ -614,7 +644,7 @@
       "expected": "Unique IDs",
       "actual": 0,
       "evidence": "dist/404.html",
-      "checked_at": "2026-09-23T20:12:40.850Z",
+      "checked_at": "2026-09-23T20:22:58.807Z",
       "environment": "local/static"
     },
     {
@@ -624,7 +654,7 @@
       "expected": null,
       "actual": [],
       "evidence": "dist/404.html",
-      "checked_at": "2026-09-23T20:12:40.850Z",
+      "checked_at": "2026-09-23T20:22:58.807Z",
       "environment": "local/static"
     },
     {
@@ -634,7 +664,7 @@
       "expected": "Existing local file",
       "actual": "/sample_food1/",
       "evidence": "dist/404.html",
-      "checked_at": "2026-09-23T20:12:40.850Z",
+      "checked_at": "2026-09-23T20:22:58.807Z",
       "environment": "local/static"
     },
     {
@@ -644,7 +674,7 @@
       "expected": "Nonempty heading; hierarchy down by at most one",
       "actual": "h1: ページが見つかりません",
       "evidence": "dist/404.html",
-      "checked_at": "2026-09-23T20:12:40.850Z",
+      "checked_at": "2026-09-23T20:22:58.807Z",
       "environment": "local/static"
     },
     {
@@ -654,7 +684,7 @@
       "expected": "One og:title",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.854Z",
+      "checked_at": "2026-09-23T20:22:58.811Z",
       "environment": "local/static"
     },
     {
@@ -664,7 +694,7 @@
       "expected": "One og:description",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.854Z",
+      "checked_at": "2026-09-23T20:22:58.811Z",
       "environment": "local/static"
     },
     {
@@ -674,7 +704,7 @@
       "expected": "One og:url",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.854Z",
+      "checked_at": "2026-09-23T20:22:58.811Z",
       "environment": "local/static"
     },
     {
@@ -684,7 +714,7 @@
       "expected": "One og:image",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.854Z",
+      "checked_at": "2026-09-23T20:22:58.811Z",
       "environment": "local/static"
     },
     {
@@ -694,7 +724,7 @@
       "expected": "One og:type",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.854Z",
+      "checked_at": "2026-09-23T20:22:58.812Z",
       "environment": "local/static"
     },
     {
@@ -704,7 +734,7 @@
       "expected": "One og:image:width",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.854Z",
+      "checked_at": "2026-09-23T20:22:58.812Z",
       "environment": "local/static"
     },
     {
@@ -714,7 +744,7 @@
       "expected": "One og:image:height",
       "actual": 1,
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.855Z",
+      "checked_at": "2026-09-23T20:22:58.812Z",
       "environment": "local/static"
     },
     {
@@ -724,7 +754,7 @@
       "expected": "Supplied image, correct absolute URL",
       "actual": "https://onebe-inc.github.io/sample_food1/assets/ogp-wanbi.png",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.855Z",
+      "checked_at": "2026-09-23T20:22:58.812Z",
       "environment": "local/static"
     },
     {
@@ -734,7 +764,7 @@
       "expected": "Original attachment unchanged",
       "actual": "17283bbce9ea4e56664782c8a7f81fcc38baea695d7d68ae61976551c03cf949",
       "evidence": "dist/assets/ogp-wanbi.png",
-      "checked_at": "2026-09-23T20:12:40.857Z",
+      "checked_at": "2026-09-23T20:22:58.815Z",
       "environment": "local/static"
     },
     {
@@ -747,7 +777,7 @@
         1086
       ],
       "evidence": "dist/assets/ogp-wanbi.png",
-      "checked_at": "2026-09-23T20:12:40.857Z",
+      "checked_at": "2026-09-23T20:22:58.815Z",
       "environment": "local/static"
     },
     {
@@ -757,7 +787,7 @@
       "expected": "Nonempty valid PNG signature",
       "actual": "restaurant-interior.png",
       "evidence": "dist/assets/restaurant-interior.png",
-      "checked_at": "2026-09-23T20:12:40.858Z",
+      "checked_at": "2026-09-23T20:22:58.816Z",
       "environment": "local/static"
     },
     {
@@ -767,7 +797,7 @@
       "expected": "Nonempty valid PNG signature",
       "actual": "ogp-wanbi.png",
       "evidence": "dist/assets/ogp-wanbi.png",
-      "checked_at": "2026-09-23T20:12:40.859Z",
+      "checked_at": "2026-09-23T20:22:58.817Z",
       "environment": "local/static"
     },
     {
@@ -780,7 +810,7 @@
         "urlset": ""
       },
       "evidence": "dist/sitemap.xml",
-      "checked_at": "2026-09-23T20:12:40.863Z",
+      "checked_at": "2026-09-23T20:22:58.821Z",
       "environment": "local/static"
     },
     {
@@ -790,7 +820,7 @@
       "expected": "No GA4 after user cancellation",
       "actual": "absent",
       "evidence": "dist/",
-      "checked_at": "2026-09-23T20:12:40.867Z",
+      "checked_at": "2026-09-23T20:22:58.825Z",
       "environment": "local/static"
     },
     {
@@ -800,7 +830,7 @@
       "expected": "No form network transmission or persistence",
       "actual": "source scan",
       "evidence": "dist/app.js",
-      "checked_at": "2026-09-23T20:12:40.867Z",
+      "checked_at": "2026-09-23T20:22:58.825Z",
       "environment": "local/static"
     },
     {
@@ -810,7 +840,7 @@
       "expected": "No old salon content",
       "actual": "source scan",
       "evidence": "dist/",
-      "checked_at": "2026-09-23T20:12:40.867Z",
+      "checked_at": "2026-09-23T20:22:58.825Z",
       "environment": "local/static"
     },
     {
@@ -820,7 +850,7 @@
       "expected": "Primary content in initial HTML",
       "actual": "menu and price",
       "evidence": "dist/index.html",
-      "checked_at": "2026-09-23T20:12:40.867Z",
+      "checked_at": "2026-09-23T20:22:58.826Z",
       "environment": "local/static"
     }
   ]
