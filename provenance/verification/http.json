@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-23T20:12:40.823Z",
+  "checkedAt": "2026-09-24T13:27:13.460Z",
   "results": [
     {
       "rule_id": "V01/V06",
@@ -8,7 +8,7 @@
       "expected": 200,
       "actual": 200,
       "evidence": "http://127.0.0.1:4317/sample_food1/",
-      "checked_at": "2026-09-23T20:12:40.784Z",
+      "checked_at": "2026-09-24T13:27:13.422Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
@@ -21,7 +21,7 @@
         "http": "noindex, nofollow",
         "html": "noindex,nofollow"
       },
-      "checked_at": "2026-09-23T20:12:40.794Z",
+      "checked_at": "2026-09-24T13:27:13.430Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
@@ -31,7 +31,17 @@
       "expected": "Primary copy and prices in raw HTML",
       "actual": "ワンビー食堂｜ふわとろオムライス専門店・サンプルサイト",
       "evidence": "GET response, no browser execution",
-      "checked_at": "2026-09-23T20:12:40.795Z",
+      "checked_at": "2026-09-24T13:27:13.430Z",
+      "environment": "http://127.0.0.1:4317"
+    },
+    {
+      "rule_id": "V11",
+      "url": "http://127.0.0.1:4317/sample_food1/analytics.js?v=20260924-ga4",
+      "status": "PASS",
+      "expected": 200,
+      "actual": 200,
+      "evidence": "text/javascript; charset=utf-8",
+      "checked_at": "2026-09-24T13:27:13.435Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
@@ -41,27 +51,27 @@
       "expected": 200,
       "actual": 200,
       "evidence": "image/svg+xml",
-      "checked_at": "2026-09-23T20:12:40.800Z",
+      "checked_at": "2026-09-24T13:27:13.437Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
       "rule_id": "V11",
-      "url": "http://127.0.0.1:4317/sample_food1/style.css?v=20260924",
+      "url": "http://127.0.0.1:4317/sample_food1/style.css?v=20260924-consultation",
       "status": "PASS",
       "expected": 200,
       "actual": 200,
       "evidence": "text/css; charset=utf-8",
-      "checked_at": "2026-09-23T20:12:40.802Z",
+      "checked_at": "2026-09-24T13:27:13.439Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
       "rule_id": "V11",
-      "url": "http://127.0.0.1:4317/sample_food1/app.js?v=20260924",
+      "url": "http://127.0.0.1:4317/sample_food1/app.js?v=20260924-motion",
       "status": "PASS",
       "expected": 200,
       "actual": 200,
       "evidence": "text/javascript; charset=utf-8",
-      "checked_at": "2026-09-23T20:12:40.804Z",
+      "checked_at": "2026-09-24T13:27:13.440Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
@@ -71,7 +81,7 @@
       "expected": 200,
       "actual": 200,
       "evidence": "image/png",
-      "checked_at": "2026-09-23T20:12:40.812Z",
+      "checked_at": "2026-09-24T13:27:13.447Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
@@ -81,7 +91,7 @@
       "expected": 200,
       "actual": 200,
       "evidence": "image/png",
-      "checked_at": "2026-09-23T20:12:40.820Z",
+      "checked_at": "2026-09-24T13:27:13.456Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
@@ -91,7 +101,7 @@
       "expected": 404,
       "actual": 404,
       "evidence": "http://127.0.0.1:4317/sample_food1/not-a-real-page/",
-      "checked_at": "2026-09-23T20:12:40.822Z",
+      "checked_at": "2026-09-24T13:27:13.459Z",
       "environment": "http://127.0.0.1:4317"
     },
     {
@@ -104,7 +114,7 @@
         "http": "noindex, nofollow",
         "html": "noindex,nofollow"
       },
-      "checked_at": "2026-09-23T20:12:40.823Z",
+      "checked_at": "2026-09-24T13:27:13.459Z",
       "environment": "http://127.0.0.1:4317"
     }
   ]

@@ -7,10 +7,10 @@ const files = [
   "dist/404.html",
   "dist/style.css",
   "dist/app.js",
+  "dist/analytics.js",
   "dist/assets/favicon.svg",
 ];
 const signatures = [
-  /googletagmanager|google-analytics|gtag\s*\(/gi,
   /HAIR\s*&(?:amp;)?\s*TIME|ヘアサロン|ai-hero-salon/gi,
   /minna-no-ginko\.com|fujiya1935\.com|wp-content/gi,
 ];
