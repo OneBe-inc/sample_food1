@@ -1,0 +1,23 @@
+{
+  "dateJst": "2026-09-24",
+  "authorization": "User requested retrying GA4 setup after previously deferring it.",
+  "account": { "name": "株式会社OneBe", "id": "386801683" },
+  "property": { "name": "DEMO_food1", "id": "555776024", "timezone": "Asia/Tokyo", "currency": "JPY" },
+  "webStream": { "name": "DEMO_food1", "id": "15838018238", "measurementId": "G-CWWJ1LKKBL", "url": "https://onebe-inc.github.io/sample_food1/" },
+  "businessDetailsSource": "Existing corporate property 527424356: ビジネス、産業; 小規模 - 従業員数 1～10 名.",
+  "enhancedMeasurement": { "pageLoads": true, "historyChanges": false, "scrolls": true, "outboundClicks": true, "siteSearch": false, "formInteractions": false, "videoEngagement": false, "fileDownloads": false },
+  "customEvent": { "name": "web_consultation_click", "parameters": ["send_to", "link_url", "link_text"], "meaning": "LINE consultation link activation, not a completed inquiry or friend addition." },
+  "checks": {
+    "propertyAndStreamCreated": "PASS",
+    "analyticsBehaviorTests": "PASS",
+    "privacyDialogInLocalBrowser": "PASS",
+    "productionDeployment": "NOT_TESTED",
+    "productionCollection": "NOT_TESTED"
+  },
+  "privacy": "No booking input is sent by application code; automatic form tracking disabled. Advertising personalization and Google signals disabled in tag config.",
+  "sources": [
+    "https://developers.google.com/analytics/devguides/collection/ga4/reference/config",
+    "https://developers.google.com/analytics/devguides/collection/ga4/events"
+  ],
+  "limitations": ["Pre-deployment record. Production delivery and reception are verified after publication.", "Analytics totals can be affected by browser settings and extensions."]
+}

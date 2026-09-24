@@ -1,11 +1,12 @@
 {
-  "checkedAt": "2026-09-23T20:12:41.326Z",
+  "checkedAt": "2026-09-24T13:26:27.336Z",
   "status": "PASS",
   "scope": [
     "dist/index.html",
     "dist/404.html",
     "dist/style.css",
     "dist/app.js",
+    "dist/analytics.js",
     "dist/assets/favicon.svg"
   ],
   "findings": [],

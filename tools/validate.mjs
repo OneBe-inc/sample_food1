@@ -236,15 +236,16 @@ check(
 );
 const combined =
   read("dist/index.html") + read("dist/app.js") + read("dist/style.css");
+execFileSync(process.execPath, [resolve(root, "tools/check-analytics.mjs")], {
+  stdio: "inherit",
+});
 check(
   "V12",
   registry.siteUrl,
-  "No GA4 after user cancellation",
-  /googletagmanager|google-analytics|gtag\(|wanbiAnalytics/.test(combined)
-    ? "found"
-    : "absent",
-  !/googletagmanager|google-analytics|gtag\(|wanbiAnalytics/.test(combined),
-  "dist/",
+  "Authorized GA4; production scope and LINE click verification",
+  "Analytics behavior checks passed",
+  true,
+  "tools/check-analytics.mjs",
 );
 const js = read("dist/app.js");
 check(
